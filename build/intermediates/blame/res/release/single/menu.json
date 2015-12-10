@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/build/intermediates/res/merged/release/menu/options_menu.xml",
+        "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/res/menu/options_menu.xml"
+    },
+    {
+        "merged": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/build/intermediates/res/merged/release/menu/activity_main.xml",
+        "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/res/menu/activity_main.xml"
+    }
+]

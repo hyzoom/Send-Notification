@@ -16,19 +16,19 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
 
+import static com.androidhive.pushnotifications.CommonUtilities.SERVER_SEND_URL;
 import static com.androidhive.pushnotifications.CommonUtilities.SERVER_URL;
 import static com.androidhive.pushnotifications.CommonUtilities.TAG;
 import static com.androidhive.pushnotifications.CommonUtilities.displayMessage;
 
 
 public final class ServerUtilities {
-	private static final int MAX_ATTEMPTS = 5;
+    private static final int MAX_ATTEMPTS = 5;
     private static final int BACKOFF_MILLI_SECONDS = 2000;
     private static final Random random = new Random();
 
     /**
      * Register this account/device pair within the server.
-     *
      */
     static void register(final Context context, String name, String email, final String regId) {
         Log.i(TAG, "registering device (regId = " + regId + ")");
@@ -78,6 +78,19 @@ public final class ServerUtilities {
         CommonUtilities.displayMessage(context, message);
     }
 
+    static void sendRandom(final Context context, final String regId, String message) {
+        String serverSendUrl = SERVER_SEND_URL;
+        Map<String, String> params = new HashMap<String, String>();
+        params.put("regId", regId);
+        params.put("message", message);
+        Log.e("params", params + "");
+        try {
+            post(serverSendUrl, params);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     /**
      * Unregister this account/device pair within the server.
      */
@@ -107,8 +120,7 @@ public final class ServerUtilities {
      * Issue a POST request to the server.
      *
      * @param endpoint POST address.
-     * @param params request parameters.
-     *
+     * @param params   request parameters.
      * @throws IOException propagated from POST.
      */
     private static void post(String endpoint, Map<String, String> params)
@@ -136,7 +148,7 @@ public final class ServerUtilities {
         byte[] bytes = body.getBytes();
         HttpURLConnection conn = null;
         try {
-        	Log.e("URL", "> " + url);
+            Log.e("URL", "> " + url);
             conn = (HttpURLConnection) url.openConnection();
             conn.setDoOutput(true);
             conn.setUseCaches(false);
@@ -151,12 +163,12 @@ public final class ServerUtilities {
             // handle the response
             int status = conn.getResponseCode();
             if (status != 200) {
-              throw new IOException("Post failed with error code " + status);
+                throw new IOException("Post failed with error code " + status);
             }
         } finally {
             if (conn != null) {
                 conn.disconnect();
             }
         }
-      }
+    }
 }

@@ -7,8 +7,10 @@ public final class CommonUtilities {
 
     // give your server registration url here
     static final String SERVER_URL = "http://hazemnotifyus.comlu.com/register.php";
+    // send messages from mobile phone
+    static final String SERVER_SEND_URL = "http://hazemnotifyus.comlu.com/send_message.php";
     // Google project id
-    static final String SENDER_ID = "AIzaSyCCIQHga7bE872jTJqTlHwHlspTLGVWXGo";
+    static final String SENDER_ID = "620138131627";
 
     /**
      * Tag used on log messages.
