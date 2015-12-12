@@ -1,121 +1,121 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:2:1-81:12
-	xmlns:android
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:2:11-69
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:2:1-81:12
 	package
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:3:5-48
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:3:5-35
 	android:versionName
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:5:5-30
-		INJECTED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml
-		INJECTED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml
+		INJECTED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml
 	android:versionCode
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:4:5-28
-		INJECTED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml
-		INJECTED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml
+		INJECTED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:8:5-10:41
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:8:5-10:41
 	android:targetSdkVersion
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:10:9-38
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:10:9-38
 	android:minSdkVersion
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:9:9-34
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:9:9-34
 uses-permission#android.permission.INTERNET
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:13:5-67
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:13:5-67
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:13:22-64
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:13:22-64
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:16:5-71
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:16:5-71
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:16:22-68
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:16:22-68
 uses-permission#android.permission.WAKE_LOCK
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:19:5-68
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:19:5-68
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:19:22-65
-permission#com.androidhive.pushnotifications.permission.C2D_MESSAGE
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:22:5-24:47
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:19:22-65
+permission#com.eshraq.sharikney.permission.C2D_MESSAGE
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:24:9-44
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:23:9-80
-uses-permission#com.androidhive.pushnotifications.permission.C2D_MESSAGE
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:26:5-96
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:23:9-67
+uses-permission#com.eshraq.sharikney.permission.C2D_MESSAGE
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:26:5-83
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:26:22-93
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:26:22-80
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:29:5-82
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:29:5-82
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:29:22-79
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:29:22-79
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:32:5-79
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:32:22-76
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:32:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:35:5-66
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:35:5-66
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:35:22-63
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:35:22-63
 application
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:38:5-79:19
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:38:5-79:19
 	android:label
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:40:9-41
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:40:9-41
 	android:icon
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:39:9-45
-activity#com.androidhive.pushnotifications.SplashScreen
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:42:9-50:20
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:39:9-45
+activity#com.eshraq.sharikney.SplashScreen
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:42:9-50:20
 	android:label
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:44:13-45
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:44:13-45
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:43:13-41
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:43:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:45:13-49:29
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:46:17-69
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:46:25-66
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:48:17-77
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:48:27-74
-activity#com.androidhive.pushnotifications.MainActivity
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:53:9-56:57
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:48:27-74
+activity#com.eshraq.sharikney.MainActivity
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:53:9-56:57
 	android:label
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:56:13-45
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:56:13-45
 	android:configChanges
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:55:13-63
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:55:13-63
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:54:13-41
-activity#com.androidhive.pushnotifications.SendRandomMessage
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:57:9-59:60
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:54:13-41
+activity#com.eshraq.sharikney.SendRandomMessage
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:57:9-59:60
 	android:label
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:59:13-48
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:59:13-48
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:58:13-46
-activity#com.androidhive.pushnotifications.RegisterActivity
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:60:9-62:60
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:58:13-66
+activity#com.eshraq.sharikney.RegisterActivity
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:60:9-62:60
 	android:label
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:62:13-48
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:62:13-48
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:61:13-45
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:61:13-65
 receiver#com.google.android.gcm.GCMBroadcastReceiver
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:64:9-76:20
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:64:9-76:20
 	android:permission
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:66:13-73
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:66:13-73
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:65:13-71
-intent-filter#com.androidhive.pushnotifications+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:67:13-75:29
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:65:13-71
+intent-filter#com.eshraq.sharikney+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:67:13-75:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:70:17-81
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:70:17-81
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:70:25-78
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:70:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:72:17-86
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:72:17-86
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:72:25-83
-category#com.androidhive.pushnotifications
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:74:17-78
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:72:25-83
+category#com.eshraq.sharikney
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:74:17-65
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:74:27-75
-service#com.androidhive.pushnotifications.GCMIntentService
-ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:78:9-53
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:74:27-62
+service#com.eshraq.sharikney.GCMIntentService
+ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:78:9-73
 	android:name
-		ADDED from E:\Programming\android_studio\Send-Notification\AndroidManifest.xml:78:18-50
+		ADDED from D:\Ahmed\github-projects\Send-Notification\AndroidManifest.xml:78:18-70

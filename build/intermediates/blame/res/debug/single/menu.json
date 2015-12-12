@@ -4,15 +4,23 @@
         "source": "E:\\Programming\\android_studio\\Send-Notification\\res\\menu\\activity_main.xml"
     },
     {
-        "merged": "E:\\Programming\\android_studio\\Send-Notification\\build\\intermediates\\res\\merged\\debug\\menu\\options_menu.xml",
-        "source": "E:\\Programming\\android_studio\\Send-Notification\\res\\menu\\options_menu.xml"
-    },
-    {
         "merged": "E:\\home\\hazem\\workspace\\AndroidGoogleColudMessaging\\AndroidPushNotificationsUsingGCM\\build\\intermediates\\res\\merged\\debug\\menu\\options_menu.xml",
         "source": "E:\\home\\hazem\\workspace\\AndroidGoogleColudMessaging\\AndroidPushNotificationsUsingGCM\\res\\menu\\options_menu.xml"
     },
     {
         "merged": "E:\\home\\hazem\\workspace\\AndroidGoogleColudMessaging\\AndroidPushNotificationsUsingGCM\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
         "source": "E:\\home\\hazem\\workspace\\AndroidGoogleColudMessaging\\AndroidPushNotificationsUsingGCM\\res\\menu\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Ahmed\\github-projects\\Send-Notification\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
+        "source": "D:\\Ahmed\\github-projects\\Send-Notification\\res\\menu\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Programming\\android_studio\\Send-Notification\\build\\intermediates\\res\\merged\\debug\\menu\\options_menu.xml",
+        "source": "E:\\Programming\\android_studio\\Send-Notification\\res\\menu\\options_menu.xml"
+    },
+    {
+        "merged": "D:\\Ahmed\\github-projects\\Send-Notification\\build\\intermediates\\res\\merged\\debug\\menu\\options_menu.xml",
+        "source": "D:\\Ahmed\\github-projects\\Send-Notification\\res\\menu\\options_menu.xml"
     }
 ]

@@ -1,4 +1,4 @@
-package com.androidhive.pushnotifications;
+package com.eshraq.sharikney;
 
 import android.content.Context;
 import android.os.PowerManager;

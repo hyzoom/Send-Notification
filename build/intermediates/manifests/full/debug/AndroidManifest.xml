@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.androidhive.pushnotifications"
+    package="com.eshraq.sharikney"
     android:versionCode="1"
     android:versionName="1.0" >
  <!-- GCM requires Android SDK version 2.2 (API level 8) or above. -->
@@ -19,10 +19,10 @@
 
     <!-- Creates a custom permission so only this app can receive its messages. -->
     <permission
-        android:name="com.androidhive.pushnotifications.permission.C2D_MESSAGE"
+        android:name="com.eshraq.sharikney.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.androidhive.pushnotifications.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.eshraq.sharikney.permission.C2D_MESSAGE" />
 
     <!-- This app has permission to register and receive data message. -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -40,7 +40,7 @@
 
         <!-- Register Activity -->
         <activity
-            android:name="com.androidhive.pushnotifications.SplashScreen"
+            android:name="com.eshraq.sharikney.SplashScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,14 +51,14 @@
 
         <!-- Main Activity -->
         <activity
-            android:name="com.androidhive.pushnotifications.MainActivity"
+            android:name="com.eshraq.sharikney.MainActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name" />
         <activity
-            android:name="com.androidhive.pushnotifications.SendRandomMessage"
+            android:name="com.eshraq.sharikney.SendRandomMessage"
             android:label="Send Random Message" />
         <activity
-            android:name="com.androidhive.pushnotifications.RegisterActivity"
+            android:name="com.eshraq.sharikney.RegisterActivity"
             android:label="Send Random Message" />
 
         <receiver
@@ -71,11 +71,11 @@
                 <!-- Receives the registration id. -->
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="com.androidhive.pushnotifications" />
+                <category android:name="com.eshraq.sharikney" />
             </intent-filter>
         </receiver>
 
-        <service android:name="com.androidhive.pushnotifications.GCMIntentService" />
+        <service android:name="com.eshraq.sharikney.GCMIntentService" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.androidhive.pushnotifications;
+package com.eshraq.sharikney;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,7 +18,7 @@ public final class CommonUtilities {
     static final String TAG = "AndroidHive GCM";
 
     static final String DISPLAY_MESSAGE_ACTION =
-            "com.androidhive.pushnotifications.DISPLAY_MESSAGE";
+            "com.eshraq.sharikney.DISPLAY_MESSAGE";
 
     static final String EXTRA_MESSAGE = "message";
 

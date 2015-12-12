@@ -1,4 +1,4 @@
-package com.androidhive.pushnotifications;
+package com.eshraq.sharikney;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import static com.androidhive.pushnotifications.CommonUtilities.SENDER_ID;
-import static com.androidhive.pushnotifications.CommonUtilities.SERVER_URL;
+import static com.eshraq.sharikney.CommonUtilities.SENDER_ID;
+import static com.eshraq.sharikney.CommonUtilities.SERVER_URL;
 
 public class RegisterActivity extends Activity {
     // alert dialog manager

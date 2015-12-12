@@ -20,7 +20,7 @@
 
     <!-- Creates a custom permission so only this app can receive its messages. -->
     <permission
-        android:name="com.androidhive.pushnotifications.permission.C2D_MESSAGE"
+        android:name="com.eshraq.sharikney.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.androidhive.pushnotifications.permission.C2D_MESSAGE" />

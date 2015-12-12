@@ -1,4 +1,4 @@
-package com.androidhive.pushnotifications;
+package com.eshraq.sharikney;
 
 import android.app.AlertDialog;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.androidhive.pushnotifications;
+package com.eshraq.sharikney;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -9,8 +9,8 @@ import android.util.Log;
 
 import com.google.android.gcm.GCMBaseIntentService;
 
-import static com.androidhive.pushnotifications.CommonUtilities.SENDER_ID;
-import static com.androidhive.pushnotifications.CommonUtilities.displayMessage;
+import static com.eshraq.sharikney.CommonUtilities.SENDER_ID;
+import static com.eshraq.sharikney.CommonUtilities.displayMessage;
 
 public class GCMIntentService extends GCMBaseIntentService {
 

@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\Ahmed\github-projects\Send-Notification\libs\gcm.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="D:\Ahmed\github-projects\Send-Notification\build\intermediates\pre-dexed\debug\gcm_2899c3dc136c2307c146789c2d3eabb61ebbb1ce.jar" />
+    </item>
+    <item
+        jar="D:\Ahmed\github-projects\Send-Notification\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="27c24d26e4c5d57976e6926367985548678e913c">
+        <dex dex="D:\Ahmed\github-projects\Send-Notification\build\intermediates\pre-dexed\debug\android-support-v4_2d6dc873e1509964fca3e9845d7aacd161eb3bcd.jar" />
+    </item>
+
+</items>

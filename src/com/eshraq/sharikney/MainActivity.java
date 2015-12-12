@@ -1,4 +1,4 @@
-package com.androidhive.pushnotifications;
+package com.eshraq.sharikney;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -15,9 +15,9 @@ import android.widget.Toast;
 
 import com.google.android.gcm.GCMRegistrar;
 
-import static com.androidhive.pushnotifications.CommonUtilities.DISPLAY_MESSAGE_ACTION;
-import static com.androidhive.pushnotifications.CommonUtilities.EXTRA_MESSAGE;
-import static com.androidhive.pushnotifications.CommonUtilities.SENDER_ID;
+import static com.eshraq.sharikney.CommonUtilities.DISPLAY_MESSAGE_ACTION;
+import static com.eshraq.sharikney.CommonUtilities.EXTRA_MESSAGE;
+import static com.eshraq.sharikney.CommonUtilities.SENDER_ID;
 
 public class MainActivity extends Activity {
     // label to display gcm messages

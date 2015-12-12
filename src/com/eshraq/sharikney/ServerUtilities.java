@@ -1,4 +1,4 @@
-package com.androidhive.pushnotifications;
+package com.eshraq.sharikney;
 
 import android.content.Context;
 import android.util.Log;
@@ -16,10 +16,10 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
 
-import static com.androidhive.pushnotifications.CommonUtilities.SERVER_SEND_URL;
-import static com.androidhive.pushnotifications.CommonUtilities.SERVER_URL;
-import static com.androidhive.pushnotifications.CommonUtilities.TAG;
-import static com.androidhive.pushnotifications.CommonUtilities.displayMessage;
+import static com.eshraq.sharikney.CommonUtilities.SERVER_SEND_URL;
+import static com.eshraq.sharikney.CommonUtilities.SERVER_URL;
+import static com.eshraq.sharikney.CommonUtilities.TAG;
+import static com.eshraq.sharikney.CommonUtilities.displayMessage;
 
 
 public final class ServerUtilities {
