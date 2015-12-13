@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.androidhive.pushnotifications;
+package com.eshraq.sharikney;
 
 public final class R {
     public static final class attr {

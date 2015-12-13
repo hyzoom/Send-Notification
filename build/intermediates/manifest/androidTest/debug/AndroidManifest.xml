@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.androidhive.pushnotifications.test">
+    package="com.eshraq.sharikney.test">
 
-    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="23" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.androidhive.pushnotifications"
+                     android:targetPackage="com.eshraq.sharikney"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.androidhive.pushnotifications"/>
+                     android:label="Tests for com.eshraq.sharikney"/>
 </manifest>

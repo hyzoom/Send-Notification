@@ -4,7 +4,31 @@
         "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/res/drawable-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/E:\\home\\hazem\\workspace\\AndroidGoogleColudMessaging\\AndroidPushNotificationsUsingGCM\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_action_search.png",
+        "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/E:\\home\\hazem\\workspace\\AndroidGoogleColudMessaging\\AndroidPushNotificationsUsingGCM\\res\\drawable-mdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/E:\\Programming\\android_studio\\Send-Notification\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/E:\\Programming\\android_studio\\Send-Notification\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/D:\\Ahmed\\github-projects\\Send-Notification\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/D:\\Ahmed\\github-projects\\Send-Notification\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/E:\\Programming\\android_studio\\Send-Notification\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_action_search.png",
+        "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/E:\\Programming\\android_studio\\Send-Notification\\res\\drawable-mdpi\\ic_action_search.png"
+    },
+    {
         "merged": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_action_search.png",
         "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/res/drawable-mdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/E:\\home\\hazem\\workspace\\AndroidGoogleColudMessaging\\AndroidPushNotificationsUsingGCM\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/E:\\home\\hazem\\workspace\\AndroidGoogleColudMessaging\\AndroidPushNotificationsUsingGCM\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/D:\\Ahmed\\github-projects\\Send-Notification\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_action_search.png",
+        "source": "/home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/D:\\Ahmed\\github-projects\\Send-Notification\\res\\drawable-mdpi\\ic_action_search.png"
     }
 ]
