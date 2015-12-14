@@ -6,36 +6,43 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
-import com.google.android.gcm.GCMRegistrar;
+import android.widget.EditText;
+import android.widget.TextView;
 
 /**
- * Created by hazem on 12/10/15.
+ * Created by hazem on 12/14/15.
  */
-public class SendRandomMessage extends Activity {
-    AsyncTask<Void, Void, Void> mRegisterTask;
-    Button sendMsg;
+public class SingleNotification extends Activity {
+    TextView msg;
+    EditText reply;
+    Button send;
     private ProgressDialog pDialog;
+    AsyncTask<Void, Void, Void> mRegisterTask;
+    String sentRegId, sentMessage;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.send_random_msg);
-        sendMsg = (Button) findViewById(R.id.sendMsg);
-        sendMsg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                sendMsg();
-            }
-        });
+        setContentView(R.layout.single_notification);
+
+        msg = (TextView) findViewById(R.id.msg);
+        String complete_msg = getIntent().getStringExtra("complete_msg");
+        if (complete_msg.contains(getString(R.string.concate))) {
+            sentMessage = complete_msg.substring(0, complete_msg.indexOf(getString(R.string.concate)));
+            sentRegId = complete_msg.substring(complete_msg.indexOf(getString(R.string.concate)) + 6, complete_msg.length());
+        } else {
+            sentMessage = complete_msg;
+            sentRegId = "0";
+        }
+        msg.setText(sentMessage);
     }
 
-    public void sendMsg() {
+    public void sendMsg(View v) {
         mRegisterTask = new AsyncTask<Void, Void, Void>() {
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
-                pDialog = new ProgressDialog(SendRandomMessage.this);
+                pDialog = new ProgressDialog(SingleNotification.this);
                 pDialog.setMessage("Sending message. Please wait...");
                 pDialog.setIndeterminate(false);
                 pDialog.setCancelable(false);
@@ -46,8 +53,7 @@ public class SendRandomMessage extends Activity {
             protected Void doInBackground(Void... params) {
                 // Register on our server
                 // On server creates a new user
-                String regId = GCMRegistrar.getRegistrationId(getApplicationContext());
-                ServerUtilities.sendRandom(getApplicationContext(), regId, 2, "test" + getString(R.string.concate) + regId);
+                ServerUtilities.sendSingle(getApplicationContext(), sentRegId, "second");
                 return null;
             }
 

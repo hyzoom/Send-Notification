@@ -60,6 +60,9 @@
         <activity
             android:name="com.eshraq.sharikney.RegisterActivity"
             android:label="Send Random Message"></activity>
+        <activity
+            android:name="com.eshraq.sharikney.SingleNotification"
+            android:label="Send Random Message"></activity>
 
         <receiver
             android:name="com.google.android.gcm.GCMBroadcastReceiver"

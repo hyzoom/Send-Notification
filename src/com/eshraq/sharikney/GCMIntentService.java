@@ -13,7 +13,7 @@ import static com.eshraq.sharikney.CommonUtilities.SENDER_ID;
 import static com.eshraq.sharikney.CommonUtilities.displayMessage;
 
 public class GCMIntentService extends GCMBaseIntentService {
-
+    String sentMessage = "";
     private static final String TAG = "GCMIntentService";
 
     public GCMIntentService() {
@@ -87,22 +87,30 @@ public class GCMIntentService extends GCMBaseIntentService {
     /**
      * Issues a notification to inform the user that server has sent a message.
      */
-    private static void generateNotification(Context context, String message) {
+    private void generateNotification(Context context, String message) {
+        if (message.contains(getString(R.string.concate))) {
+            sentMessage = message.substring(0, message.indexOf(getString(R.string.concate)));
+        } else {
+            sentMessage = message;
+        }
+//        String sentRegId = message.substring(message.indexOf(getString(R.string.concate)) + 6, message.length());
+
         int icon = R.drawable.ic_launcher;
         long when = System.currentTimeMillis();
         NotificationManager notificationManager = (NotificationManager)
                 context.getSystemService(Context.NOTIFICATION_SERVICE);
         Notification notification = new Notification(icon, message, when);
-
+        // HAZEM
         String title = context.getString(R.string.app_name);
 
-        Intent notificationIntent = new Intent(context, MainActivity.class);
+        Intent notificationIntent = new Intent(context, SingleNotification.class);
+        notificationIntent.putExtra("complete_msg", message);
         // set intent so it does not start a new activity
         notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP |
                 Intent.FLAG_ACTIVITY_SINGLE_TOP);
         PendingIntent intent =
-                PendingIntent.getActivity(context, 0, notificationIntent, 0);
-        notification.setLatestEventInfo(context, title, message, intent);
+                PendingIntent.getActivity(context, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        notification.setLatestEventInfo(context, title, sentMessage, intent);
         notification.flags |= Notification.FLAG_AUTO_CANCEL;
 
         // Play default notification sound

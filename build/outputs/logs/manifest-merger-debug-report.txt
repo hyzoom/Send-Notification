@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:2:1-81:12
+ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:2:1-84:12
 	xmlns:android
 		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:2:11-69
 	package
@@ -54,7 +54,7 @@ ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotifica
 	android:name
 		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:35:22-63
 application
-ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:38:5-79:19
+ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:38:5-82:19
 	android:label
 		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:40:9-41
 	android:icon
@@ -95,27 +95,33 @@ ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotifica
 		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:62:13-48
 	android:name
 		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:61:13-65
+activity#com.eshraq.sharikney.SingleNotification
+ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:63:9-65:60
+	android:label
+		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:65:13-48
+	android:name
+		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:64:13-67
 receiver#com.google.android.gcm.GCMBroadcastReceiver
-ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:64:9-76:20
+ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:67:9-79:20
 	android:permission
-		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:66:13-73
+		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:69:13-73
 	android:name
-		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:65:13-71
+		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:68:13-71
 intent-filter#com.eshraq.sharikney+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:67:13-75:29
+ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:70:13-78:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:70:17-81
+ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:73:17-81
 	android:name
-		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:70:25-78
+		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:73:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:72:17-86
+ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:75:17-86
 	android:name
-		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:72:25-83
+		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:75:25-83
 category#com.eshraq.sharikney
-ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:74:17-65
+ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:77:17-65
 	android:name
-		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:74:27-62
+		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:77:27-62
 service#com.eshraq.sharikney.GCMIntentService
-ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:78:9-73
+ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:81:9-73
 	android:name
-		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:78:18-70
+		ADDED from /home/hazem/workspace/AndroidGoogleColudMessaging/AndroidPushNotificationsUsingGCM/AndroidManifest.xml:81:18-70

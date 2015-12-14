@@ -36,6 +36,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
 
+import static com.eshraq.sharikney.CommonUtilities.SERVER_SEND_URL;
 import static com.eshraq.sharikney.CommonUtilities.RANDOM_USER_URL;
 import static com.eshraq.sharikney.CommonUtilities.SERVER_URL;
 import static com.eshraq.sharikney.CommonUtilities.TAG;
@@ -109,31 +110,43 @@ public final class ServerUtilities {
         params.add(new BasicNameValuePair("randNum", randNum + ""));
         JSONObject json = makeHttpRequest(randomUserURL, "GET", params);
 
+        String serverSendUrl = SERVER_SEND_URL;
+        Map<String, String> params1 = new HashMap<String, String>();
+
         if (json != null) {
             try {
-                JSONArray usersObj = json
-                        .getJSONArray("{users}");
-                System.out.print("usersObj " + usersObj);
-//                JSONArray jsonArray = m_jobj.getJSONArray("users");
-//                for (int i = 0; i < jsonArray.length(); i++) {
-//                    JSONObject c = jsonArray.getJSONObject(i);
-//                    String regId_ = c.getString("gcm_regid");
-//                    System.out.print("regId_ " + regId_);
-//                }
+                JSONArray jsonArray = json
+                        .getJSONArray("users");
+
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    JSONObject c = jsonArray.getJSONObject(i);
+                    String TargetRegIds = c.getString("gcm_regid");
+                    params1.put("regId", TargetRegIds);
+                    params1.put("message", message);
+                    try {
+                        post(serverSendUrl, params1);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         }
-//        String serverSendUrl = SERVER_SEND_URL;
-//        Map<String, String> params1 = new HashMap<String, String>();
-//        params1.put("regId", regId);
-//        params1.put("message", message);
-//        Log.e("params", params1 + "");
-//        try {
-//            post(serverSendUrl, params1);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+
+    }
+
+    static void sendSingle(final Context context, final String regId, String message) {
+        String serverSendUrl = SERVER_SEND_URL;
+        Map<String, String> params1 = new HashMap<String, String>();
+        params1.put("regId", regId);
+        params1.put("message", message);
+        try {
+            post(serverSendUrl, params1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     /**
@@ -258,7 +271,7 @@ public final class ServerUtilities {
 
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(
-                    is, "iso-8859-1"), 8);
+                    is, "UTF-8"), 8);
             StringBuilder sb = new StringBuilder();
             String line = null;
             while ((line = reader.readLine()) != null) {
@@ -266,6 +279,8 @@ public final class ServerUtilities {
             }
             is.close();
             json = sb.toString();
+            json = json.substring(json.indexOf("{"), json.lastIndexOf("}") + 1);
+
         } catch (Exception e) {
             Log.e("Buffer Error", "Error converting result " + e.toString());
         }
